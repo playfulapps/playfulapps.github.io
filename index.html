@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playful Apps | Developer Portfolio</title>
+    <style>
+        :root {
+            --bg: #FDFCF0;
+            --ink: #3E2723;
+            --accent: #D7CCC8;
+            --primary: #5D4037;
+            --win: #C8E6C9;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: var(--bg);
+            color: var(--ink);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+        }
+
+        /* Neobrutalist Box Style */
+        .neo-box {
+            background-color: white;
+            border: 4px solid var(--ink);
+            box-shadow: 8px 8px 0px var(--ink);
+            padding: 30px;
+            margin-bottom: 40px;
+            transition: transform 0.2s;
+        }
+
+        .neo-box:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 10px 10px 0px var(--ink);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            letter-spacing: -2px;
+        }
+
+        .tagline {
+            background-color: var(--accent);
+            display: inline-block;
+            padding: 5px 15px;
+            font-weight: bold;
+            border: 2px solid var(--ink);
+        }
+
+        h2 {
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            border-bottom: 4px solid var(--ink);
+            display: inline-block;
+        }
+
+        .app-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        .app-card {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            background-color: var(--primary);
+            border: 3px solid var(--ink);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: white;
+            font-weight: 900;
+        }
+
+        .app-details {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background-color: var(--accent);
+            color: var(--ink);
+            text-decoration: none;
+            font-weight: 900;
+            border: 3px solid var(--ink);
+            box-shadow: 4px 4px 0px var(--ink);
+            text-transform: uppercase;
+        }
+
+        .btn:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px var(--ink);
+        }
+
+        .btn.primary {
+            background-color: var(--win);
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-bottom: 40px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2.2rem; }
+            .app-card { text-align: center; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Playful Apps</h1>
+            <div class="tagline">BATTLE FOR THE BOARD</div>
+        </header>
+
+        <section class="neo-box">
+            <h2>Our Latest Release</h2>
+            <div class="app-card">
+                <div class="app-icon">X/O</div>
+                <div class="app-details">
+                    <h3>Tic Tac Toe</h3>
+                    <p>A polished, neobrutalist take on the classic game. Featuring smart AI, smooth animations, and a premium "Latte & Cocoa" aesthetic.</p>
+                    <a href="https://play.google.com/store/apps/dev?id=6508409768288934100" target="_blank" class="btn primary">View on Play Store</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="neo-box">
+            <h2>About Us</h2>
+            <p>We create aesthetic, high-performance mobile experiences. Our focus is on clean design language, robust logic, and satisfying user interactions.</p>
+            <div class="links">
+                <a href="mailto:playfulapps.dev@gmail.com" class="btn">Email Us</a>
+                <a href="tic-tac-toe-privacy-policy.html" class="btn">Privacy Policy</a>
+            </div>
+        </section>
+
+        <section style="text-align: center;">
+            <a href="https://play.google.com/store/apps/dev?id=6508409768288934100" target="_blank" style="color: var(--ink); font-weight: 900;">
+                [ GO TO DEVELOPER PAGE ]
+            </a>
+        </section>
+
+        <footer>
+            &copy; <span id="year"></span> Playful Apps. Built with coffee & code.
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
