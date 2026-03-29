@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Disco - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 { color: #6B7AA8; }
+        h2 { color: #7E57C2; margin-top: 30px; }
+        .effective-date { color: #666; font-style: italic; }
+        .contact { background: #f5f5f5; padding: 15px; border-radius: 8px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>Brain Disco - Privacy Policy</h1>
+    <p class="effective-date">Effective Date: March 30, 2026</p>
+
+    <h2>Introduction</h2>
+    <p>Brain Disco is a brain training application developed by <strong>Playfulapps</strong>. We respect your privacy and are committed to protecting any information you share with us. This Privacy Policy explains how we handle data in our app.</p>
+
+    <h2>Information We Collect</h2>
+    <p><strong>Locally Stored Data:</strong></p>
+    <ul>
+        <li>Game scores and statistics (best scores, averages, session history)</li>
+        <li>App preferences (theme settings)</li>
+    </ul>
+    <p>This data is stored locally on your device using Android SharedPreferences and is never transmitted to our servers.</p>
+
+    <h2>Advertising</h2>
+    <p>Brain Disco displays advertisements through <strong>Google AdMob</strong>. AdMob may collect and use data to serve personalized or non-personalized ads, including:</p>
+    <ul>
+        <li>Device information (model, OS version)</li>
+        <li>Advertising ID</li>
+        <li>General location (country/region level)</li>
+    </ul>
+    <p>We have configured AdMob with <strong>Teen content rating (T)</strong> appropriate for users aged 13 and above. For more information about how Google uses data, please visit: <a href="https://policies.google.com/privacy">Google Privacy Policy</a></p>
+
+    <h2>Data We Do NOT Collect</h2>
+    <ul>
+        <li>Personal information (name, email, phone number)</li>
+        <li>Account registration or login data</li>
+        <li>Precise location data</li>
+        <li>Contacts or device files</li>
+        <li>Camera or microphone access</li>
+    </ul>
+
+    <h2>Children's Privacy</h2>
+    <p>Brain Disco is rated <strong>Teen (13+)</strong> on Google Play Store. We do not knowingly collect personal information from children under 13. If you believe your child has provided personal information, please contact us immediately.</p>
+
+    <h2>Data Security</h2>
+    <p>All game data is stored locally on your device. We do not use encryption for local storage (standard Android SharedPreferences). Data is not backed up to cloud services. Uninstalling the app will permanently delete all stored scores and preferences.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>We use the following third-party services:</p>
+    <ul>
+        <li><strong>Google Mobile Ads (AdMob)</strong> - For displaying advertisements</li>
+        <li><strong>Google Play Services</strong> - For app distribution and updates</li>
+    </ul>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. Continued use of the app after changes constitutes acceptance of the revised policy.</p>
+
+    <h2>Your Rights</h2>
+    <p>You can clear all app data at any time through your Android device settings (Settings > Apps > Brain Disco > Storage > Clear Data). This will remove all stored scores and preferences.</p>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Playfulapps</strong></p>
+        <p>Email: <a href="mailto:playfulapps.dev@gmail.com">playfulapps.dev@gmail.com</a></p>
+        <p>Website: <a href="https://playfulapps.github.io/">https://playfulapps.github.io/</a></p>
+        <p>Location: India</p>
+    </div>
+
+    <p style="margin-top: 40px; color: #666; font-size: 0.9em;">© 2026 Playfulapps. All rights reserved.</p>
+</body>
+</html>
